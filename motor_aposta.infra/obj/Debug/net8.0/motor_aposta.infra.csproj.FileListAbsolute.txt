@@ -1,0 +1,11 @@
+C:\Tiago\motor_aposta_win\motor_aposta.infra\bin\Debug\net8.0\motor_aposta.infra.deps.json
+C:\Tiago\motor_aposta_win\motor_aposta.infra\bin\Debug\net8.0\motor_aposta.infra.dll
+C:\Tiago\motor_aposta_win\motor_aposta.infra\bin\Debug\net8.0\motor_aposta.infra.pdb
+C:\Tiago\motor_aposta_win\motor_aposta.infra\obj\Debug\net8.0\motor_aposta.infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tiago\motor_aposta_win\motor_aposta.infra\obj\Debug\net8.0\motor_aposta.infra.AssemblyInfoInputs.cache
+C:\Tiago\motor_aposta_win\motor_aposta.infra\obj\Debug\net8.0\motor_aposta.infra.AssemblyInfo.cs
+C:\Tiago\motor_aposta_win\motor_aposta.infra\obj\Debug\net8.0\motor_aposta.infra.csproj.CoreCompileInputs.cache
+C:\Tiago\motor_aposta_win\motor_aposta.infra\obj\Debug\net8.0\motor_aposta.infra.dll
+C:\Tiago\motor_aposta_win\motor_aposta.infra\obj\Debug\net8.0\refint\motor_aposta.infra.dll
+C:\Tiago\motor_aposta_win\motor_aposta.infra\obj\Debug\net8.0\motor_aposta.infra.pdb
+C:\Tiago\motor_aposta_win\motor_aposta.infra\obj\Debug\net8.0\ref\motor_aposta.infra.dll

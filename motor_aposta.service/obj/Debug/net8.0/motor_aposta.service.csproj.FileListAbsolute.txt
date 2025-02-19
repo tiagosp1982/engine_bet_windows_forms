@@ -1,0 +1,11 @@
+C:\Tiago\motor_aposta_win\motor_aposta.service\bin\Debug\net8.0\motor_aposta.service.deps.json
+C:\Tiago\motor_aposta_win\motor_aposta.service\bin\Debug\net8.0\motor_aposta.service.dll
+C:\Tiago\motor_aposta_win\motor_aposta.service\bin\Debug\net8.0\motor_aposta.service.pdb
+C:\Tiago\motor_aposta_win\motor_aposta.service\obj\Debug\net8.0\motor_aposta.service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tiago\motor_aposta_win\motor_aposta.service\obj\Debug\net8.0\motor_aposta.service.AssemblyInfoInputs.cache
+C:\Tiago\motor_aposta_win\motor_aposta.service\obj\Debug\net8.0\motor_aposta.service.AssemblyInfo.cs
+C:\Tiago\motor_aposta_win\motor_aposta.service\obj\Debug\net8.0\motor_aposta.service.csproj.CoreCompileInputs.cache
+C:\Tiago\motor_aposta_win\motor_aposta.service\obj\Debug\net8.0\motor_aposta.service.dll
+C:\Tiago\motor_aposta_win\motor_aposta.service\obj\Debug\net8.0\refint\motor_aposta.service.dll
+C:\Tiago\motor_aposta_win\motor_aposta.service\obj\Debug\net8.0\motor_aposta.service.pdb
+C:\Tiago\motor_aposta_win\motor_aposta.service\obj\Debug\net8.0\ref\motor_aposta.service.dll

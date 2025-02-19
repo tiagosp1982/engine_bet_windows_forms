@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "motor_aposta_win", "motor_aposta_win\motor_aposta_win.csproj", "{9FA42AE4-329F-4BAC-89F4-351A0FC38289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Appliation", "01-Appliation", "{A619ECA9-6D0F-4DA4-8AEE-688A9B5EAE78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Domain", "02-Domain", "{AC1E3EF7-5CCA-47A7-8802-1BDE4C877457}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Service", "03-Service", "{329B0478-B426-405B-BA64-0BE98E5734A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Infrastructure", "04-Infrastructure", "{4CD80D6D-3B0C-4ECC-A028-EB523D249D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "motor_aposta.domain", "motor_aposta.domain\motor_aposta.domain.csproj", "{734255AE-DB6D-46D8-A86B-7590CF808C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "motor_aposta.service", "motor_aposta.service\motor_aposta.service.csproj", "{297795EF-075B-4C4B-92D5-3E2D20454268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "motor_aposta.infra", "motor_aposta.infra\motor_aposta.infra.csproj", "{6FB3EE33-AF3C-4CCA-BA92-51DE4D7A36FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FA42AE4-329F-4BAC-89F4-351A0FC38289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA42AE4-329F-4BAC-89F4-351A0FC38289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA42AE4-329F-4BAC-89F4-351A0FC38289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA42AE4-329F-4BAC-89F4-351A0FC38289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734255AE-DB6D-46D8-A86B-7590CF808C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734255AE-DB6D-46D8-A86B-7590CF808C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734255AE-DB6D-46D8-A86B-7590CF808C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734255AE-DB6D-46D8-A86B-7590CF808C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297795EF-075B-4C4B-92D5-3E2D20454268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297795EF-075B-4C4B-92D5-3E2D20454268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297795EF-075B-4C4B-92D5-3E2D20454268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297795EF-075B-4C4B-92D5-3E2D20454268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB3EE33-AF3C-4CCA-BA92-51DE4D7A36FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB3EE33-AF3C-4CCA-BA92-51DE4D7A36FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB3EE33-AF3C-4CCA-BA92-51DE4D7A36FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB3EE33-AF3C-4CCA-BA92-51DE4D7A36FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FA42AE4-329F-4BAC-89F4-351A0FC38289} = {A619ECA9-6D0F-4DA4-8AEE-688A9B5EAE78}
+		{734255AE-DB6D-46D8-A86B-7590CF808C03} = {AC1E3EF7-5CCA-47A7-8802-1BDE4C877457}
+		{297795EF-075B-4C4B-92D5-3E2D20454268} = {329B0478-B426-405B-BA64-0BE98E5734A6}
+		{6FB3EE33-AF3C-4CCA-BA92-51DE4D7A36FE} = {4CD80D6D-3B0C-4ECC-A028-EB523D249D90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60132FE5-B0DD-4A0C-823E-820B54DD15C6}
+	EndGlobalSection
+EndGlobal
