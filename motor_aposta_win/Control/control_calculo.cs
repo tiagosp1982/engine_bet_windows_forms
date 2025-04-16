@@ -11,6 +11,7 @@ namespace motor_aposta_win.Control
         private readonly string labelRepeticaoRecente = "lblQtRepeticaoRecente";
         private readonly string labelRepeticaoTotal = "lblQtRepeticaoTotal";
         private readonly string labelProbabilidade = "lblVlProbabilidade";
+        private readonly string buttonNumero = "btnN";
         private readonly string textoNumeroSelecionado = "Total Selecionado: ";
         private readonly List<CalculoDTO> _calculos;
         private readonly TipoJogoDTO _tipoJogo;
@@ -21,6 +22,8 @@ namespace motor_aposta_win.Control
         private bool bAusenciaRecente;
         private bool bAusenciaTotal;
         private bool bProbabilidade;
+        private bool bPares = true;
+        private bool bImpares = true;
         private bool bConfigurado;
 
         public control_calculo(List<CalculoDTO> calculos, TipoJogoDTO tipoJogo)
@@ -118,8 +121,10 @@ namespace motor_aposta_win.Control
             }
         }
 
-        private void AlterarVisualizacaoLabel()
+        private void AlterarVisualizacao()
         {
+            
+            List<int> pares = new List<int>() { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24};
             for (int numero = 1; numero <= 25; numero++)
             {
                 foreach (var group in this.Controls)
@@ -131,30 +136,50 @@ namespace motor_aposta_win.Control
                         {
                             if (control is Label)
                             {
+                                var resultado_pares = pares.Where(x => x == numero).Count();
+
                                 var c = control as Label;
                                 if (c.Name == labelAusenciaRecente + numero.ToString())
                                 {
-                                    c.Visible = bAusenciaRecente;
+                                    c.Visible = (bAusenciaRecente && (resultado_pares == 0 ? bImpares : bPares));
                                 }
 
                                 if (c.Name == labelAusenciaTotal + numero.ToString())
                                 {
-                                    c.Visible = bAusenciaTotal;
+                                    c.Visible = (bAusenciaTotal && (resultado_pares == 0 ? bImpares : bPares));
                                 }
 
                                 if (c.Name == labelRepeticaoRecente + numero.ToString())
                                 {
-                                    c.Visible = bRepeticaoRecente;
+                                    c.Visible = (bRepeticaoRecente && (resultado_pares == 0 ? bImpares : bPares));
                                 }
 
                                 if (c.Name == labelRepeticaoTotal + numero.ToString())
                                 {
-                                    c.Visible = bRepeticaoTotal;
+                                    c.Visible = (bRepeticaoTotal && (resultado_pares == 0 ? bImpares : bPares));
                                 }
 
                                 if (c.Name == labelProbabilidade + numero.ToString())
                                 {
-                                    c.Visible = bProbabilidade;
+                                    c.Visible = (bProbabilidade && (resultado_pares == 0 ? bImpares : bPares));
+                                }
+
+                            }
+
+                            if (control is Button)
+                            {
+                                var b = control as Button;
+                                if (b.Name == buttonNumero + numero.ToString())
+                                {
+                                    var resultado_pares = pares.Where(x => x == numero).Count();
+                                    if (resultado_pares > 0)
+                                    {
+                                        b.Visible = bPares;
+                                    }
+                                    else
+                                    {
+                                        b.Visible = bImpares;
+                                    }
                                 }
                             }
                         }
@@ -233,6 +258,8 @@ namespace motor_aposta_win.Control
             configuracao.bAusenciaRecente = bAusenciaRecente;
             configuracao.bAusenciaTotal = bAusenciaTotal;
             configuracao.bProbabilidade = bProbabilidade;
+            configuracao.bPares = bPares;
+            configuracao.bImpares = bImpares;
             configuracao.bConfigurado = bConfigurado;
             configuracao.ShowDialog();
 
@@ -242,7 +269,9 @@ namespace motor_aposta_win.Control
             bAusenciaTotal = configuracao.bAusenciaTotal;
             bProbabilidade = configuracao.bProbabilidade;
             bConfigurado = configuracao.bConfigurado;
-            AlterarVisualizacaoLabel();
+            bPares = configuracao.bPares;
+            bImpares = configuracao.bImpares;
+            AlterarVisualizacao();
         }
     }
 }

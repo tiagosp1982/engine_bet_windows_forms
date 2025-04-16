@@ -34,6 +34,8 @@
             chkRepeticaoTotal = new CheckBox();
             chkProbabilidade = new CheckBox();
             btnAplicar = new Button();
+            chkPares = new CheckBox();
+            chkImpares = new CheckBox();
             SuspendLayout();
             // 
             // chkAusenciaRecente
@@ -100,7 +102,7 @@
             // 
             btnAplicar.BackColor = Color.Lime;
             btnAplicar.FlatStyle = FlatStyle.Flat;
-            btnAplicar.Location = new Point(76, 187);
+            btnAplicar.Location = new Point(76, 260);
             btnAplicar.Name = "btnAplicar";
             btnAplicar.Size = new Size(94, 31);
             btnAplicar.TabIndex = 5;
@@ -108,11 +110,37 @@
             btnAplicar.UseVisualStyleBackColor = false;
             btnAplicar.Click += btnAplicar_Click;
             // 
+            // chkPares
+            // 
+            chkPares.AutoSize = true;
+            chkPares.Checked = true;
+            chkPares.CheckState = CheckState.Checked;
+            chkPares.Location = new Point(45, 176);
+            chkPares.Name = "chkPares";
+            chkPares.Size = new Size(132, 24);
+            chkPares.TabIndex = 6;
+            chkPares.Text = "Visualizar Pares";
+            chkPares.UseVisualStyleBackColor = true;
+            // 
+            // chkImpares
+            // 
+            chkImpares.AutoSize = true;
+            chkImpares.Checked = true;
+            chkImpares.CheckState = CheckState.Checked;
+            chkImpares.Location = new Point(45, 206);
+            chkImpares.Name = "chkImpares";
+            chkImpares.Size = new Size(151, 24);
+            chkImpares.TabIndex = 7;
+            chkImpares.Text = "Visualizar Ímpares";
+            chkImpares.UseVisualStyleBackColor = true;
+            // 
             // frm_configuracao
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(241, 230);
+            ClientSize = new Size(241, 303);
+            Controls.Add(chkImpares);
+            Controls.Add(chkPares);
             Controls.Add(btnAplicar);
             Controls.Add(chkProbabilidade);
             Controls.Add(chkRepeticaoTotal);
@@ -138,5 +166,7 @@
         private CheckBox chkRepeticaoTotal;
         private CheckBox chkProbabilidade;
         private Button btnAplicar;
+        private CheckBox chkPares;
+        private CheckBox chkImpares;
     }
 }

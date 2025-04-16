@@ -7,6 +7,8 @@
         public bool bAusenciaRecente = true;
         public bool bAusenciaTotal = true;
         public bool bProbabilidade = true;
+        public bool bPares = true;
+        public bool bImpares = true;
         public bool bConfigurado;
         public frm_configuracao()
         {
@@ -20,6 +22,8 @@
             bAusenciaRecente = (this.chkAusenciaRecente.Checked ? true : false);
             bAusenciaTotal = (this.chkAusenciaTotal.Checked ? true : false);
             bProbabilidade = (this.chkProbabilidade.Checked ? true : false);
+            bPares = (this.chkPares.Checked ? true : false);
+            bImpares = (this.chkImpares.Checked ? true : false);
             bConfigurado = true;
             this.Close();
         }
@@ -33,6 +37,8 @@
                 this.chkProbabilidade.Checked = bProbabilidade;
                 this.chkRepeticaoRecente.Checked = bRepeticaoRecente;
                 this.chkRepeticaoTotal.Checked = bRepeticaoTotal;
+                this.chkPares.Checked = bPares;
+                this.chkImpares.Checked = bImpares;
             }
         }
     }

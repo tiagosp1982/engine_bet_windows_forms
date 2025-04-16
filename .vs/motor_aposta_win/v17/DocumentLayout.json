@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Tiago\\motor_aposta_win\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta_win\\ferramentas\\frm_montar_jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\ferramentas\\frm_montar_jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{734255AE-DB6D-46D8-A86B-7590CF808C03}|motor_aposta.domain\\motor_aposta.domain.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta.domain\\repositories\\interfaces\\isimulacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{734255AE-DB6D-46D8-A86B-7590CF808C03}|motor_aposta.domain\\motor_aposta.domain.csproj|solutionrelative:motor_aposta.domain\\repositories\\interfaces\\isimulacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta_win\\control\\control_calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\control\\control_calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{734255AE-DB6D-46D8-A86B-7590CF808C03}|motor_aposta.domain\\motor_aposta.domain.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta.domain\\repositories\\interfaces\\iapostarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{734255AE-DB6D-46D8-A86B-7590CF808C03}|motor_aposta.domain\\motor_aposta.domain.csproj|solutionrelative:motor_aposta.domain\\repositories\\interfaces\\iapostarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta_win\\control\\control_calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\control\\control_calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta_win\\ferramentas\\frm_conferir_resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\ferramentas\\frm_conferir_resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta_win\\ferramentas\\frm_conferir_resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\ferramentas\\frm_conferir_resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta_win\\ferramentas\\frm_montar_jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\ferramentas\\frm_montar_jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta_win\\ferramentas\\frm_montar_jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\ferramentas\\frm_montar_jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta_win\\login\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\login\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{734255AE-DB6D-46D8-A86B-7590CF808C03}|motor_aposta.domain\\motor_aposta.domain.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta.domain\\repositories\\interfaces\\iresultadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{734255AE-DB6D-46D8-A86B-7590CF808C03}|motor_aposta.domain\\motor_aposta.domain.csproj|solutionrelative:motor_aposta.domain\\repositories\\interfaces\\iresultadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta_win\\frm_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\frm_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\control\\control_calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FA42AE4-329F-4BAC-89F4-351A0FC38289}|motor_aposta_win\\motor_aposta_win.csproj|solutionrelative:motor_aposta_win\\control\\control_calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{734255AE-DB6D-46D8-A86B-7590CF808C03}|motor_aposta.domain\\motor_aposta.domain.csproj|c:\\tiago\\motor_aposta_win\\motor_aposta.domain\\repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{734255AE-DB6D-46D8-A86B-7590CF808C03}|motor_aposta.domain\\motor_aposta.domain.csproj|solutionrelative:motor_aposta.domain\\repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +54,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "control_calculo.cs",
-              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Control\\control_calculo.cs",
-              "RelativeDocumentMoniker": "motor_aposta_win\\Control\\control_calculo.cs",
-              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Control\\control_calculo.cs",
-              "RelativeToolTip": "motor_aposta_win\\Control\\control_calculo.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAMwCIAAAAMAAAA",
+              "DocumentIndex": 0,
+              "Title": "ISimulacaoRepository.cs",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta.domain\\Repositories\\Interfaces\\ISimulacaoRepository.cs",
+              "RelativeDocumentMoniker": "motor_aposta.domain\\Repositories\\Interfaces\\ISimulacaoRepository.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta.domain\\Repositories\\Interfaces\\ISimulacaoRepository.cs",
+              "RelativeToolTip": "motor_aposta.domain\\Repositories\\Interfaces\\ISimulacaoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T22:16:12.979Z",
+              "WhenOpened": "2025-04-15T21:35:44.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IApostaRepository.cs",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta.domain\\Repositories\\Interfaces\\IApostaRepository.cs",
+              "RelativeDocumentMoniker": "motor_aposta.domain\\Repositories\\Interfaces\\IApostaRepository.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta.domain\\Repositories\\Interfaces\\IApostaRepository.cs",
+              "RelativeToolTip": "motor_aposta.domain\\Repositories\\Interfaces\\IApostaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T21:35:21.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frm_menu.cs [Design]",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\frm_menu.cs",
+              "RelativeDocumentMoniker": "motor_aposta_win\\frm_menu.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\frm_menu.cs [Design]",
+              "RelativeToolTip": "motor_aposta_win\\frm_menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:18:40.674Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_conferir_resultado.cs",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_conferir_resultado.cs",
+              "RelativeDocumentMoniker": "motor_aposta_win\\Ferramentas\\frm_conferir_resultado.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_conferir_resultado.cs",
+              "RelativeToolTip": "motor_aposta_win\\Ferramentas\\frm_conferir_resultado.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAACwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:09:36.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frm_montar_jogo.cs [Design]",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
+              "RelativeDocumentMoniker": "motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs [Design]",
+              "RelativeToolTip": "motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T16:20:46.636Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frm_montar_jogo.cs",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
+              "RelativeDocumentMoniker": "motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
+              "RelativeToolTip": "motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAhwJQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:23:43.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "frm_conferir_resultado.cs [Design]",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_conferir_resultado.cs",
+              "RelativeDocumentMoniker": "motor_aposta_win\\Ferramentas\\frm_conferir_resultado.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_conferir_resultado.cs [Design]",
+              "RelativeToolTip": "motor_aposta_win\\Ferramentas\\frm_conferir_resultado.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T16:53:04.249Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IResultadoRepository.cs",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta.domain\\Repositories\\Interfaces\\IResultadoRepository.cs",
+              "RelativeDocumentMoniker": "motor_aposta.domain\\Repositories\\Interfaces\\IResultadoRepository.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta.domain\\Repositories\\Interfaces\\IResultadoRepository.cs",
+              "RelativeToolTip": "motor_aposta.domain\\Repositories\\Interfaces\\IResultadoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:20:23.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_login.cs [Design]",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Login\\frm_login.cs",
+              "RelativeDocumentMoniker": "motor_aposta_win\\Login\\frm_login.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Login\\frm_login.cs [Design]",
+              "RelativeToolTip": "motor_aposta_win\\Login\\frm_login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:34:30.445Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta.domain\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "motor_aposta.domain\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta.domain\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "motor_aposta.domain\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T16:03:48.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "control_calculo.cs [Design]",
               "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Control\\control_calculo.cs",
               "RelativeDocumentMoniker": "motor_aposta_win\\Control\\control_calculo.cs",
@@ -51,31 +192,6 @@
               "RelativeToolTip": "motor_aposta_win\\Control\\control_calculo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T22:16:09.546Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frm_montar_jogo.cs",
-              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
-              "RelativeDocumentMoniker": "motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
-              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
-              "RelativeToolTip": "motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAMwDkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T21:20:00.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frm_montar_jogo.cs [Design]",
-              "DocumentMoniker": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
-              "RelativeDocumentMoniker": "motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs",
-              "ToolTip": "C:\\Tiago\\motor_aposta_win\\motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs [Design]",
-              "RelativeToolTip": "motor_aposta_win\\Ferramentas\\frm_montar_jogo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T21:15:30.597Z",
               "EditorCaption": " [Design]"
             }
           ]

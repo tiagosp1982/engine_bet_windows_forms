@@ -50,6 +50,9 @@ namespace motor_aposta_win
             services.AddRefitClient<ICalculoRepository>()
                     .ConfigureHttpClient(c => c.BaseAddress = new Uri(baseUrl));
 
+            services.AddRefitClient<IResultadoRepository>()
+                    .ConfigureHttpClient(c => c.BaseAddress = new Uri(baseUrl));
+
             // Registrar o formulário principal
             services.AddSingleton<frm_menu>();
             services.AddSingleton<frm_login>();

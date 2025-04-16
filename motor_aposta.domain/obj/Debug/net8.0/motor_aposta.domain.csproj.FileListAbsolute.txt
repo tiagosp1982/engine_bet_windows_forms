@@ -10,3 +10,4 @@ C:\Tiago\motor_aposta_win\motor_aposta.domain\obj\Debug\net8.0\motor_aposta.doma
 C:\Tiago\motor_aposta_win\motor_aposta.domain\obj\Debug\net8.0\refint\motor_aposta.domain.dll
 C:\Tiago\motor_aposta_win\motor_aposta.domain\obj\Debug\net8.0\motor_aposta.domain.pdb
 C:\Tiago\motor_aposta_win\motor_aposta.domain\obj\Debug\net8.0\ref\motor_aposta.domain.dll
+C:\Tiago\motor_aposta_win\motor_aposta.domain\obj\Debug\net8.0\motor_aposta.domain.sourcelink.json

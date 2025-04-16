@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("motor_aposta_win")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+296f1978968d2f808e8190d0d1b32c458ffa48f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("motor_aposta_win")]
 [assembly: System.Reflection.AssemblyTitleAttribute("motor_aposta_win")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

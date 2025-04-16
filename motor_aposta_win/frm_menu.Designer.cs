@@ -31,6 +31,8 @@
             components = new System.ComponentModel.Container();
             ToolStripMenuItem consultasToolStripMenuItem;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_menu));
+            resultadosToolStripMenuItem = new ToolStripMenuItem();
+            minhasApostasToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1 = new MenuStrip();
             cadastroToolStripMenuItem = new ToolStripMenuItem();
             usuárioToolStripMenuItem = new ToolStripMenuItem();
@@ -40,11 +42,9 @@
             ciclosToolStripMenuItem = new ToolStripMenuItem();
             probabilidadesToolStripMenuItem = new ToolStripMenuItem();
             dezenasToolStripMenuItem = new ToolStripMenuItem();
-            resultadosToolStripMenuItem = new ToolStripMenuItem();
-            minhasApostasToolStripMenuItem = new ToolStripMenuItem();
             simuladorToolStripMenuItem = new ToolStripMenuItem();
-            gerarJogosToolStripMenuItem = new ToolStripMenuItem();
             montarJogoAvulsoToolStripMenuItem = new ToolStripMenuItem();
+            gerarJogosToolStripMenuItem = new ToolStripMenuItem();
             grp_concurso = new GroupBox();
             lbl_dt_proximo_concurso_var = new Label();
             lbl_proximo_concurso_var = new Label();
@@ -66,6 +66,28 @@
             grp_concurso.SuspendLayout();
             grp_atualizacao.SuspendLayout();
             SuspendLayout();
+            // 
+            // consultasToolStripMenuItem
+            // 
+            consultasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { resultadosToolStripMenuItem, minhasApostasToolStripMenuItem });
+            consultasToolStripMenuItem.Enabled = false;
+            consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
+            consultasToolStripMenuItem.Size = new Size(86, 24);
+            consultasToolStripMenuItem.Text = "Consultas";
+            // 
+            // resultadosToolStripMenuItem
+            // 
+            resultadosToolStripMenuItem.Enabled = false;
+            resultadosToolStripMenuItem.Name = "resultadosToolStripMenuItem";
+            resultadosToolStripMenuItem.Size = new Size(196, 26);
+            resultadosToolStripMenuItem.Text = "Resultados";
+            // 
+            // minhasApostasToolStripMenuItem
+            // 
+            minhasApostasToolStripMenuItem.Enabled = false;
+            minhasApostasToolStripMenuItem.Name = "minhasApostasToolStripMenuItem";
+            minhasApostasToolStripMenuItem.Size = new Size(196, 26);
+            minhasApostasToolStripMenuItem.Text = "Minhas Apostas";
             // 
             // menuStrip1
             // 
@@ -89,14 +111,14 @@
             // 
             usuárioToolStripMenuItem.Enabled = false;
             usuárioToolStripMenuItem.Name = "usuárioToolStripMenuItem";
-            usuárioToolStripMenuItem.Size = new Size(224, 26);
+            usuárioToolStripMenuItem.Size = new Size(158, 26);
             usuárioToolStripMenuItem.Text = "Usuário";
             // 
             // tipoJogoToolStripMenuItem
             // 
             tipoJogoToolStripMenuItem.Enabled = false;
             tipoJogoToolStripMenuItem.Name = "tipoJogoToolStripMenuItem";
-            tipoJogoToolStripMenuItem.Size = new Size(224, 26);
+            tipoJogoToolStripMenuItem.Size = new Size(158, 26);
             tipoJogoToolStripMenuItem.Text = "Tipo Jogo";
             // 
             // análisesToolStripMenuItem
@@ -135,28 +157,6 @@
             dezenasToolStripMenuItem.Size = new Size(289, 26);
             dezenasToolStripMenuItem.Text = "Dezenas";
             // 
-            // consultasToolStripMenuItem
-            // 
-            consultasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { resultadosToolStripMenuItem, minhasApostasToolStripMenuItem });
-            consultasToolStripMenuItem.Enabled = false;
-            consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            consultasToolStripMenuItem.Size = new Size(86, 24);
-            consultasToolStripMenuItem.Text = "Consultas";
-            // 
-            // resultadosToolStripMenuItem
-            // 
-            resultadosToolStripMenuItem.Enabled = false;
-            resultadosToolStripMenuItem.Name = "resultadosToolStripMenuItem";
-            resultadosToolStripMenuItem.Size = new Size(224, 26);
-            resultadosToolStripMenuItem.Text = "Resultados";
-            // 
-            // minhasApostasToolStripMenuItem
-            // 
-            minhasApostasToolStripMenuItem.Enabled = false;
-            minhasApostasToolStripMenuItem.Name = "minhasApostasToolStripMenuItem";
-            minhasApostasToolStripMenuItem.Size = new Size(224, 26);
-            minhasApostasToolStripMenuItem.Text = "Minhas Apostas";
-            // 
             // simuladorToolStripMenuItem
             // 
             simuladorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { montarJogoAvulsoToolStripMenuItem, gerarJogosToolStripMenuItem });
@@ -164,20 +164,19 @@
             simuladorToolStripMenuItem.Size = new Size(91, 24);
             simuladorToolStripMenuItem.Text = "Simulador";
             // 
-            // gerarJogosToolStripMenuItem
-            // 
-            gerarJogosToolStripMenuItem.Enabled = false;
-            gerarJogosToolStripMenuItem.Name = "gerarJogosToolStripMenuItem";
-            gerarJogosToolStripMenuItem.Size = new Size(224, 26);
-            gerarJogosToolStripMenuItem.Text = "Gerar Jogos";
-            gerarJogosToolStripMenuItem.Click += gerarJogosToolStripMenuItem_Click;
-            // 
             // montarJogoAvulsoToolStripMenuItem
             // 
             montarJogoAvulsoToolStripMenuItem.Name = "montarJogoAvulsoToolStripMenuItem";
             montarJogoAvulsoToolStripMenuItem.Size = new Size(224, 26);
             montarJogoAvulsoToolStripMenuItem.Text = "Montar Jogo Avulso";
             montarJogoAvulsoToolStripMenuItem.Click += montarJogoAvulsoToolStripMenuItem_Click;
+            // 
+            // gerarJogosToolStripMenuItem
+            // 
+            gerarJogosToolStripMenuItem.Enabled = false;
+            gerarJogosToolStripMenuItem.Name = "gerarJogosToolStripMenuItem";
+            gerarJogosToolStripMenuItem.Size = new Size(224, 26);
+            gerarJogosToolStripMenuItem.Text = "Gerar Jogos";
             // 
             // grp_concurso
             // 
@@ -342,6 +341,7 @@
             btn_atualizar_sim.TabIndex = 1;
             btn_atualizar_sim.Text = "Sim";
             btn_atualizar_sim.UseVisualStyleBackColor = false;
+            btn_atualizar_sim.Click += btn_atualizar_sim_Click;
             // 
             // lbl_atualizacao
             // 

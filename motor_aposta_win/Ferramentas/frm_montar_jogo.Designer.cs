@@ -34,10 +34,13 @@
             lbl_concurso_final = new Label();
             lbl_concurso_inicial = new Label();
             grpCarrinho = new GroupBox();
-            btnConferir = new Button();
+            dataGridView1 = new DataGridView();
+            textBox1 = new TextBox();
+            btn_conferir = new Button();
             lblNumeros = new Label();
             grp_filtro.SuspendLayout();
             grpCarrinho.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // grp_filtro
@@ -98,7 +101,9 @@
             // grpCarrinho
             // 
             grpCarrinho.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            grpCarrinho.Controls.Add(btnConferir);
+            grpCarrinho.Controls.Add(dataGridView1);
+            grpCarrinho.Controls.Add(textBox1);
+            grpCarrinho.Controls.Add(btn_conferir);
             grpCarrinho.Controls.Add(lblNumeros);
             grpCarrinho.Location = new Point(45, 79);
             grpCarrinho.Name = "grpCarrinho";
@@ -107,15 +112,32 @@
             grpCarrinho.TabStop = false;
             grpCarrinho.Text = "Carrinho";
             // 
-            // btnConferir
+            // dataGridView1
             // 
-            btnConferir.Enabled = false;
-            btnConferir.Location = new Point(843, 36);
-            btnConferir.Name = "btnConferir";
-            btnConferir.Size = new Size(94, 45);
-            btnConferir.TabIndex = 1;
-            btnConferir.Text = "Conferir";
-            btnConferir.UseVisualStyleBackColor = true;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(14, 134);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(923, 188);
+            dataGridView1.TabIndex = 3;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(23, 101);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(682, 27);
+            textBox1.TabIndex = 2;
+            // 
+            // btn_conferir
+            // 
+            btn_conferir.Enabled = false;
+            btn_conferir.Location = new Point(843, 36);
+            btn_conferir.Name = "btn_conferir";
+            btn_conferir.Size = new Size(94, 44);
+            btn_conferir.TabIndex = 1;
+            btn_conferir.Text = "Conferir";
+            btn_conferir.UseVisualStyleBackColor = true;
+            btn_conferir.Click += btnConferir_Click;
             // 
             // lblNumeros
             // 
@@ -146,6 +168,8 @@
             grp_filtro.ResumeLayout(false);
             grp_filtro.PerformLayout();
             grpCarrinho.ResumeLayout(false);
+            grpCarrinho.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -158,6 +182,8 @@
         private ComboBox cbo_concurso_inicio;
         private GroupBox grpCarrinho;
         private Label lblNumeros;
-        private Button btnConferir;
+        private Button btn_conferir;
+        private TextBox textBox1;
+        private DataGridView dataGridView1;
     }
 }

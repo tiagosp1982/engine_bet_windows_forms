@@ -7,6 +7,9 @@
     <Compile Update="Control\control_calculo.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Ferramentas\frm_conferir_resultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Ferramentas\frm_montar_jogo.cs">
       <SubType>Form</SubType>
     </Compile>

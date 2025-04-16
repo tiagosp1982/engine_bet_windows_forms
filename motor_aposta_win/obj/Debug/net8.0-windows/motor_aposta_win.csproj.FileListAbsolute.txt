@@ -39,3 +39,5 @@ C:\Tiago\motor_aposta_win\motor_aposta_win\obj\Debug\net8.0-windows\motor_aposta
 C:\Tiago\motor_aposta_win\motor_aposta_win\obj\Debug\net8.0-windows\motor_aposta_win.Control.control_calculo.resources
 C:\Tiago\motor_aposta_win\motor_aposta_win\obj\Debug\net8.0-windows\motor_aposta_win.Ferramentas.frm_montar_jogo.resources
 C:\Tiago\motor_aposta_win\motor_aposta_win\obj\Debug\net8.0-windows\motor_aposta_win.Control.Configuracao.frm_configuracao.resources
+C:\Tiago\motor_aposta_win\motor_aposta_win\obj\Debug\net8.0-windows\motor_aposta_win.sourcelink.json
+C:\Tiago\motor_aposta_win\motor_aposta_win\obj\Debug\net8.0-windows\motor_aposta_win.Ferramentas.frm_conferir_resultado.resources

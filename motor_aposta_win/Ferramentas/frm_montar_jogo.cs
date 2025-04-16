@@ -10,16 +10,22 @@ namespace motor_aposta_win.Ferramentas
         private readonly IConcursoRepository _concursoRepository;
         private readonly ITipoJogoRepository _tipoJogoRepository;
         private readonly ICalculoRepository _calculoRepository;
-        public int id_tipo_jogo;
+        private readonly IResultadoRepository _resultadoRepository;
+        private int _id_tipo_jogo;
+        private string _nr_jogo;
+        private TipoJogoDTO _tipoJogoDTO;
         private control_calculo ucCalculo;
         private bool bCarregado = false;
         private List<int> numeros = new List<int>();
-        public frm_montar_jogo(IConcursoRepository concursoRepository, ITipoJogoRepository tipoJogoRepository, ICalculoRepository calculoRepository)
+        public frm_montar_jogo(int id_tipo_jogo, IConcursoRepository concursoRepository, ITipoJogoRepository tipoJogoRepository,
+            ICalculoRepository calculoRepository, IResultadoRepository resultadoRepository)
         {
             InitializeComponent();
             _concursoRepository = concursoRepository;
             _tipoJogoRepository = tipoJogoRepository;
             _calculoRepository = calculoRepository;
+            _resultadoRepository = resultadoRepository;
+            _id_tipo_jogo = id_tipo_jogo;
         }
 
         private async void frm_gerar_jogo_Load(object sender, EventArgs e)
@@ -33,20 +39,20 @@ namespace motor_aposta_win.Ferramentas
         //Incluir na services
         private async Task<TipoJogoDTO> BuscaTipoJogoAsync()
         {
-            TipoJogoDTO tipoJogo = await _tipoJogoRepository.ListaTipoJogoPorId(id_tipo_jogo);
+            TipoJogoDTO tipoJogo = await _tipoJogoRepository.ListaTipoJogoPorId(_id_tipo_jogo);
             return tipoJogo;
         }
 
         private async Task<List<ConcursoDTO>> BuscaConcursoAsync()
         {
-            List<ConcursoDTO> concursos = await _concursoRepository.ListaConcurso(id_tipo_jogo);
+            List<ConcursoDTO> concursos = await _concursoRepository.ListaConcurso(_id_tipo_jogo);
             return concursos;
         }
 
         //Incluir na services
         private async Task<List<TipoJogoEstruturaDTO>> BuscaTipoJogoEstruturaAsync()
         {
-            List<TipoJogoEstruturaDTO> estrutura = await _tipoJogoRepository.ListaTipoJogoEstrutura(id_tipo_jogo);
+            List<TipoJogoEstruturaDTO> estrutura = await _tipoJogoRepository.ListaTipoJogoEstrutura(_id_tipo_jogo);
             return estrutura;
         }
 
@@ -55,7 +61,7 @@ namespace motor_aposta_win.Ferramentas
             int nr_concurso_inicio = int.Parse(this.cbo_concurso_inicio.SelectedValue!.ToString()!);
             int nr_concurso_fim = int.Parse(this.cbo_concurso_fim.SelectedValue!.ToString()!);
 
-            List<CalculoDTO> calculos = await _calculoRepository.ListaCalculos(id_tipo_jogo,
+            List<CalculoDTO> calculos = await _calculoRepository.ListaCalculos(_id_tipo_jogo,
                                                                                     nr_concurso_inicio,
                                                                                     nr_concurso_fim);
             return calculos;
@@ -66,9 +72,9 @@ namespace motor_aposta_win.Ferramentas
             //carrega tipo de jogo
             var task_tipo_jogo = BuscaTipoJogoAsync();
             await Task.WhenAll(task_tipo_jogo);
-            var tipoJogo = task_tipo_jogo.Result;
+            _tipoJogoDTO = task_tipo_jogo.Result;
 
-            ucCalculo = new control_calculo(calcs, tipoJogo);
+            ucCalculo = new control_calculo(calcs, _tipoJogoDTO);
             ucCalculo.Location = new Point(-10, 50); // Posição no formulário
             ucCalculo.Size = new Size(this.Size.Width - 50, this.Size.Height - 500); // Tamanho do controle
             ucCalculo.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top;
@@ -139,6 +145,8 @@ namespace motor_aposta_win.Ferramentas
                 numeros.Add(n);
             numeros.Sort();
             this.lblNumeros.Text = string.Join("-", numeros);
+            _nr_jogo = string.Join(",", numeros);
+            this.btn_conferir.Enabled = (_nr_jogo.Split(",").Length >= _tipoJogoDTO.qt_dezena_minima_aposta ? true: false);
         }
 
         private void btnEvent_Click(object sender, object e)
@@ -159,6 +167,12 @@ namespace motor_aposta_win.Ferramentas
                 var calculos = await CarregaCalculo();
                 AdicionarUserControl(calculos.ToList());
             }
+        }
+
+        private void btnConferir_Click(object sender, EventArgs e)
+        {
+            frm_conferir_resultado frm = new frm_conferir_resultado(_id_tipo_jogo, _nr_jogo, _resultadoRepository);
+            frm.ShowDialog();
         }
     }
 }
